@@ -1,3 +1,6 @@
+# cka-certification
+Sample resource definitions learnt during CKA prep
+
 Create NGINX Pod: kubectl run --generator=run-pod/v1 nginx --image=nginx
 
 Generate YAML, don't create pod: kubectl run --generator=run-pod/v1 nginx --image=nginx --dry-run -o yaml
